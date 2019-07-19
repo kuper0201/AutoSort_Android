@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="tk.acejs.autosort.MainActivity">
+    <item
+            android:id="@+id/on_off_switch"
+            app:showAsAction="always"
+            app:actionLayout="@layout/switch_item" android:title="ServiceOnOff"/>
+    <item android:id="@+id/start_clean"
+          android:title="@string/clean_start"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/tutorial"
+          android:title="@string/tutorial"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+</menu>
